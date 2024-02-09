@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "radio",
+	"version": "${version}",
+	"name": "Radio",
+	"description": "Ceci est un mode 100% français.",
+	"authors": [
+		"Papillonlut"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/radio/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.papillonlut.radio.Radio"
+		],
+		"client": [
+			"fr.papillonlut.radio.RadioClient"
+		],
+		"fabric-datagen": [
+			"fr.papillonlut.radio.RadioDataGenerator"
+		]
+	},
+	"mixins": [
+		"radio.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
