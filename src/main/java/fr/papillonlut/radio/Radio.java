@@ -1,7 +1,9 @@
 package fr.papillonlut.radio;
 
+import fr.papillonlut.radio.block.ModBlocks;
+import fr.papillonlut.radio.item.ModItemGroups;
+import fr.papillonlut.radio.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,9 @@ public class Radio implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

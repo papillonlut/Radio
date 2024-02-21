@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "radio:block/music_block"
+    }
+  }
+}

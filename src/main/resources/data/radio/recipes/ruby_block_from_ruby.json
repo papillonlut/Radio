@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "buildings",
+  "ingredients": [
+    {
+      "item": "radio:music_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_wool",
+    "count": 9
+  }
+}
