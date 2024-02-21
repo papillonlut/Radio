@@ -1,8 +1,10 @@
-# Radio
-"Radio" is a mod for customizable music playback. Interested? Have a look!
+# Version available
+Version | Availability
+ ---: | :---:
+1.20.4 (latest) | ✅
+before 1.20.4 | ❌
 
 # Available languages
-
 Language | Availability
  ---: | :---:
 Allemand | ❌
