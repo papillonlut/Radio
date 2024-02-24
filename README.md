@@ -1,4 +1,4 @@
-# Mod Minecraft Fabric : *Radio*
+# *Radio* : Mod Minecraft Fabric
 ![image](https://raw.githubusercontent.com/papillonlut/Radio/Introducing/radio-title.png)
 
 ## Version available
