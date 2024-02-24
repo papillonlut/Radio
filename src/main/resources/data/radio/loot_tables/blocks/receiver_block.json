@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "radio:music_block"
+          "name": "radio:receiver_block"
         }
       ]
     }

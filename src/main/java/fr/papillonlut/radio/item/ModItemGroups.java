@@ -12,15 +12,15 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup RADIO_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Radio.MOD_ID, "radio"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.radio"))
                     .icon(() -> new ItemStack(ModItems.RADIO)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.RADIO);
                         entries.add(ModItems.RUBY);
 
-                        entries.add(ModBlocks.MUSIC_BLOCK);
-                        entries.add(ModBlocks.MUSICAL_BLOCK);
+                        entries.add(ModBlocks.RECEIVER_BLOCK);
+                        entries.add(ModBlocks.RECEIVER_BLOCK_2);
                     })).build());
 
     public static void registerItemGroups() {

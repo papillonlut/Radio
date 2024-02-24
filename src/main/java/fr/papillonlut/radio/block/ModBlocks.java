@@ -15,9 +15,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block MUSIC_BLOCK = registerBlock("music_block",
+    public static final Block RECEIVER_BLOCK = registerBlock("receiver_block",
             new Block(FabricBlockSettings.create().mapColor(MapColor.OAK_TAN).instrument(Instrument.BASS).sounds(BlockSoundGroup.WOOD).strength(0.8F).burnable()));
-    public static final Block MUSICAL_BLOCK = registerBlock("musical_block",
+    public static final Block RECEIVER_BLOCK_2 = registerBlock("receiver_block_2",
             new Block(FabricBlockSettings.create().mapColor(MapColor.OAK_TAN).instrument(Instrument.BASS).sounds(BlockSoundGroup.WOOD).strength(0.8F).burnable()));
 
     private static Block registerBlock(String name, Block block) {

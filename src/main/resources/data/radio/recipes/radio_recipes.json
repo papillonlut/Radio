@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "* *",
+    "*#*",
+    "*/*"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lightning_rod"
+    },
+    "/": {
+      "item": "radio:receiver_block"
+    },
+    "*": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "radio:radio",
+    "count": 1
+  }
+}

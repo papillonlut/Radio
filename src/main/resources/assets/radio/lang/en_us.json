@@ -2,8 +2,8 @@
   "item.radio.ruby": "Ruby",
   "item.radio.radio": "Radio",
 
-  "block.radio.music_block": "Block of music",
-  "block.radio.musical_block": "Block of music 2",
+  "block.radio.receiver_block": "Radio receiver",
+  "block.radio.receiver_block_2": "Radio receiver 2",
 
   "itemgroup.radio": "Radio"
 }
