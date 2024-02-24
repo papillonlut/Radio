@@ -1,14 +1,14 @@
 # Version available
 
 Version | Availability
- ---: | :---:
+--- | ---
 [1.20.4 (latest)](https://github.com/papillonlut/Radio/tree/1.20.4) | ✅
 1.20.4 and under | ❌
 
 # Available languages
- 
+
 Language | Availability
- ---: | :---:
+--- | ---
 Allemand | ❌
 Anglais | ✅
 Français | ❌
