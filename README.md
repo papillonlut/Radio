@@ -14,3 +14,14 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/Java-red?style=for-the-badge&logo=coffeescript">
   <img alt="Static Badge" src="https://img.shields.io/badge/JSON-grey?style=for-the-badge&logo=json">
 </div>
+
+## Available languages
+
+Language | Availability
+--- | ---
+Allemand | ❌
+Anglais | ✅
+Français | ❌
+Russe | ❌
+
+> If you don't see any other language, no file is available for translation. But the mod is available for translation.
