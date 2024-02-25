@@ -15,6 +15,10 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/JSON-grey?style=for-the-badge&logo=json">
 </div>
 
+## Different crafts
+![image](https://raw.githubusercontent.com/papillonlut/Radio/1.20.4/craft-music-block.png)
+![image](https://raw.githubusercontent.com/papillonlut/Radio/1.20.4/craft-radio.png)
+
 ## Available languages
 
 Language | Availability
