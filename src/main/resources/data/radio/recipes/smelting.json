@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "radio:receiver_block"
+  },
+  "result": "radio:radio",
+  "experience": 1,
+  "cookingtime": 10
+}

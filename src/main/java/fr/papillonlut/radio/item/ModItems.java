@@ -13,12 +13,10 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RADIO = registerItem("radio", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item SPEAKER = registerItem("speaker", new Item(new FabricItemSettings()));
 
     private static void addItemToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RADIO);
         entries.add(RUBY);
-        entries.add(SPEAKER);
     }
 
     private static Item registerItem(String name, Item item) {
@@ -27,7 +25,5 @@ public class ModItems {
 
     public static void registerModItems() {
         Radio.LOGGER.info("Registering Mod Items for " + Radio.MOD_ID);
-
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToIngredientTabItemGroup);
     }
 }
