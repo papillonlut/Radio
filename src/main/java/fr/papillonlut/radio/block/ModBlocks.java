@@ -4,6 +4,7 @@ import fr.papillonlut.radio.Radio;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
@@ -15,7 +16,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block RECEIVER_BLOCK = registerBlock("receiver_block",
-            new Block(FabricBlockSettings.create().mapColor(MapColor.OAK_TAN).instrument(Instrument.BASS).sounds(BlockSoundGroup.WOOD).strength(0.8F).burnable()));
+            new Block(FabricBlockSettings.create().mapColor(MapColor.OAK_TAN).instrument(Instrument.BASS).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

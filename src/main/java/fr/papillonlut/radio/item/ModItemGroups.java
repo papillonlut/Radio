@@ -16,7 +16,6 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.radio"))
                     .icon(() -> new ItemStack(ModItems.RADIO)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.RADIO);
-                        entries.add(ModItems.RUBY);
 
                         entries.add(ModBlocks.RECEIVER_BLOCK);
                     })).build());
